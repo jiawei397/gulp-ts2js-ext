@@ -41,11 +41,11 @@ function replaceImportJSExt(originText: string, minified?: boolean) {
   return result.code;
 }
 
+const reg = /import\s[\w\-{},*\n\s]*["'](.+)["']/g;
 /**
  * Remove ts ends with ".ts" suffix
  */
 function replaceImportTSExt(originText: string) {
-  const reg = /import\s.*["']+(.+)["']+/g;
   // 这里不能用AST解析，原因是babel不能直接解析TS
   return originText.replaceAll(reg, (match, str) => {
     if (!str.endsWith(".ts")) {
