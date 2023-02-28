@@ -1,6 +1,6 @@
 {
   "name": "gulp-ts2js-ext",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Use Gulp to remove TypesSript suffix extension .ts, and add JavaScript suffix extension with .js",
   "main": "./lib/index.js",
   "types": "./typings/index.d.ts",
