@@ -1,0 +1,9 @@
+{
+  "lint": {
+    "files": {
+      "include": [
+        "example/"
+      ]
+    }
+  }
+}

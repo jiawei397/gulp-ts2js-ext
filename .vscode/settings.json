@@ -1,0 +1,17 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.config": "./deno.json",
+  "deno.enablePaths": [
+    "example"
+  ],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  }
+}

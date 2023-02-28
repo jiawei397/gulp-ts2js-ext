@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Module/Target Options */
+    "target": "es6",
+    "lib": ["ESNext"],
+    "module": "ES2020",
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "./lib",
+    "declarationDir": "./typings",
+    /* Strict Type-Checking Options */
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    /* Basic Options */
+    /* Extra Options */
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "rootDir": "./ts",
+    "baseUrl": ".",
+    "skipLibCheck": true
+  },
+  "include": [
+    "ts"
+  ]
+}
